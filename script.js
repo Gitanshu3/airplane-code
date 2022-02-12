@@ -25,8 +25,8 @@ rl.question('Enter the input as arrays in json format ', (request) => {
   console.log("************** The output is like \"Person 1 assigned to seat A13 in 1 section\" where 1 is the 1st person in the queue\n" +
     "   A13 is the seat number where A is the aisle seat , 13 means 1 row 3rd column , in 1st section. ***************")
   computeSeatingArrangement(seats, noOfPeople)
-}
-)
+})
+
 
 
 function computeSeatingArrangement(seats, noOfPeople){
